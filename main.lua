@@ -27,7 +27,7 @@ warn("Anti Staff is now running")
     end)
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/scarsfromherpain/taxi-boss/main/ui.lua", true))()
 local example = library:CreateWindow({
-  text = "Skeet.cc"
+  text = "Taxi Boss"
 })
 example:AddToggle("Auto Collect Eggs", function(state)
 getfenv().eggs = (state and true or false)
