@@ -81,7 +81,7 @@ local function WSDES_fake_script() -- TextButton.LocalScript
 		frame:TweenPosition(UDim2.new(0,500,2,0),Enum.EasingDirection.InOut,Enum.EasingStyle.Quart,5)
 		task.wait(3)
 	frame.Parent:Destroy()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scarsfromherpain/Vehicle-Legends/main/main.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/scarsfromherpain/taxi-boss/main/main.lua"))()
 	end)
 	
 end
