@@ -50,7 +50,7 @@ TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.Position = UDim2.new(0.147499993, 0, 0.250965238, 0)
 TextLabel_2.Size = UDim2.new(0, 282, 0, 109)
 TextLabel_2.Font = Enum.Font.FredokaOne
-TextLabel_2.Text = ".gg/RnVwunNPKu Note always exploit in private servers!"
+TextLabel_2.Text = "Use script at  your  own risk i am not responsible for any accounts banned using my script. Note always exploit in private servers!"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 20.000
 TextLabel_2.TextWrapped = true
@@ -81,7 +81,7 @@ local function WSDES_fake_script() -- TextButton.LocalScript
 		frame:TweenPosition(UDim2.new(0,500,2,0),Enum.EasingDirection.InOut,Enum.EasingStyle.Quart,5)
 		task.wait(3)
 	frame.Parent:Destroy()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scarsfromherpain/taxi-boss/main/main.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/taxi%20boss%20main"))()
 	end)
 	
 end
