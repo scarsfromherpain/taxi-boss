@@ -1,4 +1,4 @@
-local vu = game:GetService("VirtualUser")
+ocal vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
    vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
    wait(1)
@@ -25,7 +25,7 @@ warn("Anti Staff is now running")
     wait(5)
     end
     end)
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/scarsfromherpain/taxi-boss/main/ui.lua", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/ui%20libs2", true))()
 local example = library:CreateWindow({
   text = "Skeet.cc"
 })
@@ -806,3 +806,4 @@ local part = game.Players.LocalPlayer.Character.Humanoid.SeatPart
 part.RotVelocity = Vector3.new(0,part.RotVelocity.Y+10,0)
 end)
 end
+end)
